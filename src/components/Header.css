@@ -1,0 +1,37 @@
+.navcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+.center-nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.center-nav>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #212121;
+    
+}
+.active{
+    font-weight: 700;
+}
+.cta{
+    border: 2px solid #212121;
+    padding: 10px;
+}
+.divider{
+
+    width:75%;
+margin: auto;
+color: #413d3d;
+
+}

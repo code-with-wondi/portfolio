@@ -1,0 +1,138 @@
+.herocontainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text{
+    padding-top: 100px;
+    height: 80vh;
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    text-align: start;
+
+    
+}
+.image{
+    width: 40%;
+    background-color: #141E46;
+    padding: 20px 150px;
+}
+.hiwrapper{
+    display: flex;
+    
+    align-items: center;
+}
+.tag{
+    color: white;
+    padding: 150px;
+    font-size: 24px;
+    font-weight: 700;
+   padding: 10px 40px;
+   border-radius: 9999px;
+   margin-left: 30px;
+   background-color: blue;
+   margin-top: 0px;
+}
+.name{
+    font-size: 52px;
+    margin-top: 0px;
+}
+.text>p{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.ctas{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ctas>button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: brown;
+}
+.ctas>p{
+    font-size: 20px;
+}
+.dtails-card{
+    margin-top:20px;
+}
+.dtails-card h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+.dtails-card p{
+    font-size: 14px;
+}
+.twoexprience{
+    display: flex;
+    gap: 200px;
+}
+.gy{
+    margin-top: 40px;
+}
+.catchline{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.scketch{
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+   
+    margin-left: auto;
+
+    background-color: gold;
+}
+.figma{
+    margin: 40px 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+  
+    
+    background-color: red;
+
+}
+.blu{
+    background-color: blue;
+}
+.cont{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.newletter{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.newletter>input{
+    border: none;
+}
+.newletter>div{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.foot{
+    padding-top: 80px;
+    display: flex;
+    gap: 50px;
+    
+}
+.dialigue{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
