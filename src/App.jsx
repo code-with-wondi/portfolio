@@ -1,14 +1,11 @@
-import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
 import './App.css'
-
+import { ThemeProvider } from './contexts/ThemeContext';
+import Home from './components/Home';
 const App = () => {
   return (
-    <div className='view'>
-    <Header />
-    <Hero />
-    </div>
+    <ThemeProvider>
+    <Home />
+    </ThemeProvider>
 
   )
 }

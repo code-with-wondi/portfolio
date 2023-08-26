@@ -1,11 +1,18 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Hero.css'
+import {ThemeContext} from '../contexts/ThemeContext';
 const Hero = () => {
+    const {isDarkMode,toggleTheme} = useContext(ThemeContext)
+  
   return (
     <>
     
-    <div className='herocontainer'>
-        <div className="text">
+    <div className={isDarkMode? 'herocontainer dark' : 'herocontainer light'}>
+        <div className={isDarkMode? 'text dark': 'text light'}>
+        <label htmlFor="checkbox" className='hide'>
+        {isDarkMode? 'Dark' :'Light'}
+        <input type="checkbox"  onClick={toggleTheme}  className='Navbar-input' />
+      </label>
             <div className="hiwrapper">
             <h1 className='name'>Hello! I am </h1>
             <div className='tag'>UI/UX</div>

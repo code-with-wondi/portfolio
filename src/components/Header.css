@@ -1,9 +1,21 @@
-.navcontainer{
+.navcontainer.dark{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px 10px;
+    color: #fff;
+    background-color: #212121;
+    transition: width 2s, height 2s, transform 2s
     
+}
+.navcontainer.light{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    color: #000;
+    background-color:#fff;
+    transition: width 2s, height 2s, transform 2s
 }
 .logo{
     font-size: 24px;
@@ -15,11 +27,21 @@
     gap: 30px;
 
 }
-.center-nav>a{
+.center-nav>a.white{
     text-decoration: none;
     font-size: 16px;
     color: #212121;
     
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+}
+.link.dark{
+    color: #fff;  
+}
+.link.light{
+    color: #212121;
 }
 .active{
     font-weight: 700;
@@ -34,4 +56,10 @@
 margin: auto;
 color: #413d3d;
 
+}
+.divider.dark{
+background-color: #212121;
+}
+.divider.light{
+    color: #fff;
 }

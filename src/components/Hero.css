@@ -3,6 +3,10 @@
     justify-content: space-around;
     
 }
+.herocontainer.dark{
+    color: #fff;
+    background-color: #212121;
+}
 .text{
     padding-top: 100px;
     height: 80vh;
@@ -14,6 +18,11 @@
     text-align: start;
 
     
+}
+
+.herocontainer.light{
+    color: #212121;
+    background: #fff;
 }
 .image{
     width: 40%;
@@ -135,4 +144,7 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
+}
+.hide{
+    visibility: hidden;
 }
